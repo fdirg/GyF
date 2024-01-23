@@ -1,22 +1,15 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Route,
-  Routes as ReactDomRoutes,
-} from "react-router-dom";
-import Layout from "../components/Layout/Layout";
+import { Route, Routes as ReactDomRoutes } from "react-router-dom";
+import Home from "../pages/Home/Home";
+import Service from "../pages/Service/Service";
 
 const Routes = () => {
   return (
     <>
-      <BrowserRouter>
-        <Layout>
-          <ReactDomRoutes>
-            <Route path="/" element={<p>hola</p>} />
-            <Route path="*" element={<p>chau</p>} />
-          </ReactDomRoutes>
-        </Layout>
-      </BrowserRouter>
+      <ReactDomRoutes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Service" element={<Service />} />
+      </ReactDomRoutes>
     </>
   );
 };

@@ -9,19 +9,11 @@ export const GlobalStyles = createGlobalStyle`
     body {
     margin: 0;
     padding: 0;
-    background: #131415;
+    background: #F8F4F2;
     font-family: 'Montserrat', sans-serif;
     color: white;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
-    }
-
-    a {
-    text-decoration: none;
-    }
-
-    a:visited {
-    color: white;
     }
 
     li {

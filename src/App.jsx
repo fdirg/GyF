@@ -1,11 +1,14 @@
+import Layout from "./components/Layout/Layout.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
 import Routes from "./routes/Routes.jsx";
-import { GlobalStyles } from "./styles/GlobalStyles.js";
 
 function App() {
   return (
     <>
-      <Routes />
-      <GlobalStyles />
+      <Layout>
+        <Navbar />
+        <Routes />
+      </Layout>
     </>
   );
 }

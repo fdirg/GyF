@@ -1,7 +1,8 @@
 import React from "react";
+import { LayoutWrapper } from "./LayoutStyles";
 
-const Layout = () => {
-  return <div>Layout</div>;
+const Layout = ({ children }) => {
+  return <LayoutWrapper>{children}</LayoutWrapper>;
 };
 
 export default Layout;
