@@ -8,6 +8,7 @@ import {
   NavLinks,
   NavbarWrapper,
 } from "./NavbarStyles";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
@@ -15,13 +16,16 @@ const Navbar = () => {
       <NavbarWrapper>
         <Nav>
           <LogoWrapper>
-            <LogoLink to="/">G&F</LogoLink>
+            <motion.div whileTap={{ scale: 0.92 }}>
+              <LogoLink to="/">G&F</LogoLink>
+            </motion.div>
           </LogoWrapper>
           <LinksWrapper>
             <ItemsLinks>
-              <NavLinks>Inicio</NavLinks>
+              <NavLinks to="/">Inicio</NavLinks>
+              <NavLinks to="/Service">Nuestro Servicio</NavLinks>
+              <NavLinks>Clientes</NavLinks>
               <NavLinks>Quienes somos</NavLinks>
-              <NavLinks>Nuestro Servicio</NavLinks>
               <NavLinks>Contacto</NavLinks>
             </ItemsLinks>
           </LinksWrapper>

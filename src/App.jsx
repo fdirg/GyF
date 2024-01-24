@@ -5,8 +5,8 @@ import Routes from "./routes/Routes.jsx";
 function App() {
   return (
     <>
+      <Navbar />
       <Layout>
-        <Navbar />
         <Routes />
       </Layout>
     </>
