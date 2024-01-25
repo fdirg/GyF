@@ -14,6 +14,12 @@ export const GlobalStyles = createGlobalStyle`
     color: white;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
+    color: #455e5e;
+    }
+
+    a {
+       text-decoration: none;
+       color: #fff;
     }
 
     li {
