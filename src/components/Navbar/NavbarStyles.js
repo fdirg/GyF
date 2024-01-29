@@ -30,7 +30,7 @@ export const LogoWrapper = styled.div`
 
 export const LogoLink = styled(Link)`
   text-decoration: none;
-  color: #455e5e;
+  color: #344e41;
   font-size: 2.6rem;
   font-style: italic;
   font-weight: 600;

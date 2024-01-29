@@ -65,10 +65,6 @@ export const HeroImageWrapper = styled.div`
   img {
     width: 100%;
     height: auto;
-    max-height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
+    max-height: 610px;
   }
 `;

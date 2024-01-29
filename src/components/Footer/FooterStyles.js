@@ -8,4 +8,7 @@ export const FooterWrapper = styled.footer`
   align-items: center;
   gap: 30px;
   padding: 0 40px;
+  p {
+    color: #fff;
+  }
 `;
