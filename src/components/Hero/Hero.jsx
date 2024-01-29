@@ -1,6 +1,7 @@
 import React from "react";
 import { HeroImageWrapper, HeroWrapper, HeroTextWrapper } from "./HeroStyles";
-
+import HeroVideo from "../../assets/herovideo.mp4";
+import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
@@ -10,19 +11,23 @@ const Hero = () => {
             <h2>Gestion Empresarial</h2>
             <h3>Management Financiero</h3>
             <p>
-              Mas de <span>25 años de experiencia</span> en el sector financiero
+              <span>Mas de 25 años de experiencia</span> en el sector financiero
             </p>
             <p>
               Especializados en el sector agropecuario y en industrias
               sustentables
             </p>
+            <motion.div whileTap={{ scale: 0.95 }}>
+              <button>
+                <a href="#mision">Mira mas</a>
+              </button>
+            </motion.div>
           </div>
         </HeroTextWrapper>
         <HeroImageWrapper>
-          <img
-            src="https://images.unsplash.com/photo-1507662228758-08d030c4820b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
-          />
+          <video autoPlay loop muted>
+            <source src={HeroVideo} />
+          </video>
         </HeroImageWrapper>
       </HeroWrapper>
     </>

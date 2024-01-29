@@ -14,16 +14,15 @@ import { FaArrowUpWideShort } from "react-icons/fa6";
 const Mision = () => {
   return (
     <>
-      <MisionSection>
+      <MisionSection id="mision">
         <MisionTextWrapper>
-          <h2 className="slide-right">
-            Como equipo de trabajo, nuestra mision es:
-          </h2>
+          <h2>Como equipo de trabajo, nuestra mision es:</h2>
         </MisionTextWrapper>
+        <div className="line"></div>
         <MisionCardsWrapper>
           <MisionCards>
             <CardImg>
-              <h4>Desarrollo</h4>
+              <h4>Desarrollo de herramientas</h4>
               <i>
                 <FaArrowUpWideShort />
               </i>
@@ -37,7 +36,7 @@ const Mision = () => {
           </MisionCards>
           <MisionCards>
             <CardImg>
-              <h4>Seguimiento</h4>
+              <h4>Seguimiento de empresas</h4>
               <i>
                 <TfiStatsUp />
               </i>
@@ -51,7 +50,7 @@ const Mision = () => {
           </MisionCards>
           <MisionCards>
             <CardImg>
-              <h4>Conformidad</h4>
+              <h4>Conformidad con el cliente</h4>
               <i>
                 <FaRegHandshake />
               </i>

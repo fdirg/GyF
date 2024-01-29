@@ -3,7 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
 * {
   margin: 0;
-    padding: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
   html{
@@ -12,7 +13,6 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
     background: #F8F4F2;
-    font-family: 'Montserrat', sans-serif;
     color: white;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
