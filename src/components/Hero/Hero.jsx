@@ -1,7 +1,6 @@
 import React from "react";
 import { HeroImageWrapper, HeroWrapper, HeroTextWrapper } from "./HeroStyles";
 import HeroVideo from "../../assets/herovideo.mp4";
-import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
@@ -17,11 +16,6 @@ const Hero = () => {
               Especializados en el sector agropecuario y en industrias
               sustentables
             </p>
-            <motion.div whileTap={{ scale: 0.95 }}>
-              <button>
-                <a href="#mision">Mira mas</a>
-              </button>
-            </motion.div>
           </div>
         </HeroTextWrapper>
         <HeroImageWrapper>

@@ -10,6 +10,7 @@ import {
 import { TfiStatsUp } from "react-icons/tfi";
 import { FaRegHandshake } from "react-icons/fa6";
 import { FaArrowUpWideShort } from "react-icons/fa6";
+import { useState } from "react";
 
 const Mision = () => {
   return (

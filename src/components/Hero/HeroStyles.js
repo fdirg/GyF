@@ -7,7 +7,6 @@ export const HeroWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 `;
 
 export const HeroTextWrapper = styled.div`
@@ -49,29 +48,11 @@ export const HeroTextWrapper = styled.div`
   span {
     font-weight: 700;
   }
-  button {
-    padding: 10px;
-    border: 1px solid #b3c9d0;
-    background-color: #598392;
-    margin-top: 1rem;
-    transition: 0.5s;
-    border-radius: 8px;
-    a {
-      padding: 6px;
-      font-weight: 400;
-      font-size: 14px;
-      color: #fff;
-      transition: 0.8s;
-    }
-    &:hover {
-      scale: 1.1;
-    }
-  }
 `;
 
 export const HeroImageWrapper = styled.div`
   width: 100%;
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;

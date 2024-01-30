@@ -7,6 +7,10 @@ export const NavbarWrapper = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f8f4f2;
   box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 `;
 

@@ -27,7 +27,7 @@ export const MisionTextWrapper = styled.div`
     font-size: 1.7rem;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 `;
 

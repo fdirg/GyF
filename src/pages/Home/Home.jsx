@@ -2,6 +2,7 @@ import React from "react";
 import { HomeWrapper } from "./HomeStyles";
 import Hero from "../../components/Hero/Hero";
 import Mision from "../../components/Mision/Mision";
+import Inspiracion from "../../components/Inspiracion/Inspiracion";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HomeWrapper>
         <Hero />
         <Mision />
+        <Inspiracion />
       </HomeWrapper>
     </>
   );
