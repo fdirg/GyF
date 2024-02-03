@@ -23,8 +23,8 @@ const Navbar = () => {
           <LinksWrapper>
             <ItemsLinks>
               <NavLinks to="/">Inicio</NavLinks>
-              <NavLinks to="/servicios">Nuestros Servicios</NavLinks>
-              <NavLinks to="/clientes">Clientes</NavLinks>
+              <NavLinks to="/servicios">Nuestro Servicio</NavLinks>
+              <NavLinks to="/servicios#clientes">Clientes</NavLinks>
               <NavLinks to="/nosotros">Quienes somos</NavLinks>
               <NavLinks to="/">Contacto</NavLinks>
             </ItemsLinks>

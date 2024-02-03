@@ -20,7 +20,6 @@ export const LayoutWrapper = styled.main`
     font-size: 26px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-    margin-bottom: 16px;
     .i-float {
       margin-top: 12px;
     }

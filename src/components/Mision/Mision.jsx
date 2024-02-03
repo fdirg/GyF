@@ -30,7 +30,7 @@ const Mision = () => {
             </CardImg>
             <CardText>
               <p>
-                Optimizar el uso de Herramientas Financieras para el Sector
+                Optimizar el uso de herramientas financieras para el Sector
                 Agroindustrial y lograr negocios mas rentables y eficientes.
               </p>
             </CardText>

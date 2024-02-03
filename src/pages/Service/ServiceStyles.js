@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ServiceWrapper = styled.div`
+export const ServiceWrapper = styled.section`
   width: 100%;
   max-width: 1600px;
   display: flex;

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const InspiracionWrapper = styled.section`
   width: 100%;
-  max-width: 1600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +9,6 @@ export const InspiracionWrapper = styled.section`
 `;
 
 export const InspiracionTitleWrapper = styled.div`
-  max-width: 500px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -18,7 +16,7 @@ export const InspiracionTitleWrapper = styled.div`
   gap: 12px;
   padding-bottom: 2rem;
   h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
   }
 `;
@@ -28,7 +26,7 @@ export const InspiracionVideoWrapper = styled.div`
   justify-content: center;
   align-items: center;
   video {
-    width: 400px;
+    width: 500px;
     border-radius: 1rem;
     object-fit: cover;
     height: 500px;
@@ -37,10 +35,9 @@ export const InspiracionVideoWrapper = styled.div`
 
 export const InspiracionCardsWrapper = styled.div`
   width: 600px;
-  max-width: 700px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   gap: 1rem;
 `;
@@ -48,7 +45,6 @@ export const InspiracionCardsWrapper = styled.div`
 export const InspiracionCard = styled.div`
   max-width: 400px;
   padding: 1rem;
-  /* background-color: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,12 +57,12 @@ export const InspiracionCard = styled.div`
   }
   p {
     font-size: 15px;
-    line-height: 20px;
+    text-align: left;
   }
 `;
 
 export const BorderBottom = styled.div`
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +78,6 @@ export const BorderBottom = styled.div`
     align-items: center;
     column-gap: 1rem;
   }
-
   .line {
     height: 1px;
     width: 50%;
