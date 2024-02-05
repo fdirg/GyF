@@ -14,7 +14,7 @@ export const HeroServiceImageWrapper = styled.div`
   align-items: center;
   img {
     width: 100%;
-    height: 580px;
+    height: 550px;
     object-fit: cover;
     opacity: 1;
     border-top-right-radius: 20px;

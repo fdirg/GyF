@@ -4,22 +4,20 @@ import {
   InspiracionCard,
   InspiracionCardsWrapper,
   InspiracionTitleWrapper,
-  InspiracionVideoWrapper,
+  InspiracionImgWrapper,
   InspiracionWrapper,
 } from "./InspiracionStyles";
-import InspiracionVideo from "../../assets/inspiracionvideo.mp4";
+import InspiracionImg from "../../assets/inspiracionimg.jpg";
 
 const Inspiracion = () => {
   return (
     <>
       <InspiracionWrapper>
         <InspiracionTitleWrapper>
-          <h4>Y nuestra inspiracion se basa en:</h4>
-          <InspiracionVideoWrapper>
-            <video autoPlay loop muted>
-              <source src={InspiracionVideo} />
-            </video>
-          </InspiracionVideoWrapper>
+          <h4>Nuestra inspiracion se basa en:</h4>
+          <InspiracionImgWrapper>
+            <img src={InspiracionImg} alt="" />
+          </InspiracionImgWrapper>
         </InspiracionTitleWrapper>
         <InspiracionCardsWrapper>
           <InspiracionCard>

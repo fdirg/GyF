@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroImageWrapper, HeroWrapper, HeroTextWrapper } from "./HeroStyles";
-import HeroVideo from "../../assets/herovideo.mp4";
+import HeroImage from "../../assets/heroimage.jpg";
 const Hero = () => {
   return (
     <>
@@ -19,9 +19,7 @@ const Hero = () => {
           </div>
         </HeroTextWrapper>
         <HeroImageWrapper>
-          <video autoPlay loop muted>
-            <source src={HeroVideo} />
-          </video>
+          <img src={HeroImage} alt="" />
         </HeroImageWrapper>
       </HeroWrapper>
     </>

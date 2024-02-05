@@ -21,11 +21,11 @@ export const InspiracionTitleWrapper = styled.div`
   }
 `;
 
-export const InspiracionVideoWrapper = styled.div`
+export const InspiracionImgWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  video {
+  img {
     width: 500px;
     border-radius: 1rem;
     object-fit: cover;

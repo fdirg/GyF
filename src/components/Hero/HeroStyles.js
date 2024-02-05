@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
-  width: 100%;
-  max-width: 1600px;
+  width: 90%;
   color: #000;
   display: flex;
   justify-content: center;
@@ -10,40 +9,33 @@ export const HeroWrapper = styled.div`
 `;
 
 export const HeroTextWrapper = styled.div`
-  max-width: 1600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: absolute;
   z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
   div {
-    width: 968px;
-    max-width: 968px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   h2 {
-    color: #fff;
     font-size: 3.5rem;
     font-weight: 700;
     margin: 0 0 4px 0;
-    text-transform: uppercase;
   }
   h3 {
-    color: #fff;
     font-size: 2rem;
     font-weight: 600;
     margin: 0 0 10px 0;
-    text-transform: uppercase;
   }
   p {
-    color: #fff;
     font-size: 1.2rem;
-    font-weight: 400;
-    text-transform: uppercase;
+    font-weight: 500;
   }
   span {
     font-weight: 700;
@@ -52,16 +44,16 @@ export const HeroTextWrapper = styled.div`
 
 export const HeroImageWrapper = styled.div`
   width: 100%;
-  padding-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   position: relative;
-  video {
-    width: 98%;
-    height: 500px;
-    border-radius: 1rem;
+  img {
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
     object-fit: cover;
+    opacity: 0.9;
   }
 `;

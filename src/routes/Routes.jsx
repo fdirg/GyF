@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes as ReactDomRoutes } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import Service from "../pages/Service/Service";
-import Clients from "../pages/Clients/Clients";
 import Us from "../pages/Us/Us";
 
 const Routes = () => {
