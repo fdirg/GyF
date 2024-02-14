@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const TeamWrapper = styled.div`
   width: 100%;
   height: 100vh;
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
+  /* gap: 4rem; */
+  @media (max-width: 700px) {
+    /* padding: 4rem 0; */
+  }
   h2 {
     font-size: 2.5rem;
     display: flex;
@@ -29,6 +32,10 @@ export const TeamCardsWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 8rem;
+  @media (max-width: 700px) {
+    gap: 2rem;
+    flex-direction: column;
+  }
   .vertical-line {
     height: 80%;
     width: 2px;
@@ -55,6 +62,10 @@ export const TeamCardFoto = styled.div`
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    @media (max-width: 915px) {
+      width: 220px;
+      height: 220px;
+    }
   }
 `;
 

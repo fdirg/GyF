@@ -17,7 +17,6 @@ export const MisionSection = styled.section`
 `;
 
 export const MisionTextWrapper = styled.div`
-  max-width: 1600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,12 +25,19 @@ export const MisionTextWrapper = styled.div`
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
+    @media (max-width: 780px) {
+      text-align: center;
+    }
   }
 `;
 
 export const MisionCardsWrapper = styled(MisionTextWrapper)`
   width: 1100px;
   justify-content: space-between;
+  @media (max-width: 1100px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
 `;
 
 export const MisionCards = styled.div`
@@ -53,6 +59,12 @@ export const MisionCards = styled.div`
       transform: translateY(0);
     }
   }
+  @media (max-width: 1100px) {
+    max-width: 500px;
+    padding: 1rem 2rem;
+    flex-direction: row;
+    gap: 2rem;
+  }
 `;
 
 export const CardImg = styled.div`
@@ -73,6 +85,12 @@ export const CardImg = styled.div`
   i {
     transform: translateY(55px);
     transition: ease-out 0.5s;
+  }
+  @media (max-width: 1100px) {
+    h4,
+    i {
+      transform: translateY(0);
+    }
   }
 `;
 

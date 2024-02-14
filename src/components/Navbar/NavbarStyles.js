@@ -49,30 +49,6 @@ export const ItemsLinks = styled.li`
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  a {
-    text-decoration: none;
-    color: #344646;
-    font-size: 0.9rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: relative;
-    padding: 10px 0;
-    &::before {
-      border-radius: 10px;
-      transition: 0.3s;
-      height: 3px;
-      content: "";
-      position: absolute;
-      background-color: #344646;
-      width: 100%;
-      bottom: -20px;
-      opacity: 0;
-    }
-    &:hover::before {
-      bottom: 1px;
-      opacity: 1;
-    }
-  }
 `;
 
 export const NavLinks = styled(NavLink)`

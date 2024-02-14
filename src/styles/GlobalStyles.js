@@ -13,7 +13,6 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
     background: #F8F4F2;
-    color: white;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
     color: #455e5e;

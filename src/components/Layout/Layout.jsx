@@ -11,18 +11,7 @@ const Layout = ({ children }) => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  return (
-    <LayoutWrapper>
-      {children}
-      <a
-        href="https://wa.me/5493415826686"
-        className="wsp-float"
-        target="_blank"
-      >
-        <IoLogoWhatsapp className="i-float" />
-      </a>
-    </LayoutWrapper>
-  );
+  return <LayoutWrapper>{children}</LayoutWrapper>;
 };
 
 export default Layout;

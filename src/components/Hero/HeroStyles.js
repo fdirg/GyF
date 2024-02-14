@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
   width: 90%;
-  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 960px) {
+    width: 100%;
+  }
 `;
 
 export const HeroTextWrapper = styled.div`
@@ -17,6 +19,7 @@ export const HeroTextWrapper = styled.div`
   z-index: 1;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
   div {
     display: flex;
     justify-content: center;
@@ -27,15 +30,33 @@ export const HeroTextWrapper = styled.div`
     font-size: 3.5rem;
     font-weight: 700;
     margin: 0 0 4px 0;
+    @media (max-width: 740px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 620px) {
+      font-size: 2rem;
+    }
   }
   h3 {
     font-size: 2rem;
     font-weight: 600;
     margin: 0 0 10px 0;
+    @media (max-width: 740px) {
+      font-size: 1.5rem;
+    }
+    @media (max-width: 620px) {
+      font-size: 1.2rem;
+    }
   }
   p {
     font-size: 1.2rem;
     font-weight: 500;
+    @media (max-width: 740px) {
+      font-size: 1rem;
+    }
+    @media (max-width: 620px) {
+      font-size: 0.8rem;
+    }
   }
   span {
     font-weight: 700;
