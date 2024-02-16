@@ -51,7 +51,7 @@ const TypesServices = () => {
           </div>
         </TypeServiceText>
         <TypeServiceImage>
-          <img src={ServiceImage} alt="" />
+          <img src={ServiceImage} alt="Foto Servicio" />
         </TypeServiceImage>
       </TypeServiceWrapper>
     </>

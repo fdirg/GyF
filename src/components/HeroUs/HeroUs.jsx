@@ -31,7 +31,7 @@ const HeroUs = () => {
           </HeroUsTextDescription>
         </HeroUsTextWrapper>
         <HeroUsImageWrapper>
-          <img src={FotoRosario} alt="" />
+          <img src={FotoRosario} alt="Foto Rosario" />
         </HeroUsImageWrapper>
       </HeroUsWrapper>
     </>

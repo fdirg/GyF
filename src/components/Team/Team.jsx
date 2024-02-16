@@ -23,10 +23,10 @@ const Team = () => {
         <TeamCardsWrapper>
           <TeamCard>
             <TeamCardFoto>
-              <img src={FotoFede} alt="" />
+              <img src={FotoFede} alt="Foto Federico Irungaray" />
             </TeamCardFoto>
             <TeamCardText>
-              <h4>Federico Irungaray</h4>
+              <h4>Federico M. Irungaray</h4>
               <p>Socio Fundador</p>
             </TeamCardText>
             <TeamCardRedes>
@@ -53,7 +53,7 @@ const Team = () => {
           <div className="vertical-line"></div>
           <TeamCard>
             <TeamCardFoto>
-              <img src={FotoPerfil2} alt="" />
+              <img src={FotoPerfil2} alt="Foto Gaston Dalla Marta" />
             </TeamCardFoto>
             <TeamCardText>
               <h4>Gaston Dalla Marta</h4>
@@ -63,12 +63,6 @@ const Team = () => {
               <a href="https://wa.me/5493416045803" target="_blank">
                 <IoLogoWhatsapp style={{ color: "#25d366" }} />
               </a>
-              {/* <a
-                href="https://www.instagram.com/federico_irungaray/"
-                target="_blank"
-              >
-                <FaInstagram style={{ color: "#FC283B" }} />
-              </a> */}
               <a
                 href="https://www.linkedin.com/in/gaston-dalla-marta-ab9285123/"
                 target="_blank"

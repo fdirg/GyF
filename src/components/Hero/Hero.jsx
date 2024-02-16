@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </HeroTextWrapper>
         <HeroImageWrapper>
-          <img src={HeroImage} alt="" />
+          <img src={HeroImage} alt="Imagen Hero" />
         </HeroImageWrapper>
       </HeroWrapper>
     </>

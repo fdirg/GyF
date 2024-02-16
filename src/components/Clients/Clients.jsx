@@ -26,28 +26,28 @@ const Clients = () => {
         </ClientsTitle>
         <ClientsImages>
           <ClientLogo>
-            <img src={BidImage} alt="" />
+            <img src={BidImage} alt="Bid Argentina" />
           </ClientLogo>
           <ClientLogo>
-            <img src={SialLogo} alt="" />
+            <img src={SialLogo} alt="Sial Ingeniera" />
           </ClientLogo>
           <ClientLogo>
             <img
               src={Ruta12Logo}
-              alt=""
+              alt="Ruta 12"
               style={{ backgroundColor: "#2D2D32", padding: "10px" }}
             />
           </ClientLogo>
           <ClientLogo>
-            <img src={RialLogo} alt="" />
+            <img src={RialLogo} alt="Rial" />
           </ClientLogo>
           <ClientLogo>
-            <img src={TorresiLogo} alt="" />
+            <img src={TorresiLogo} alt="Torresi" />
           </ClientLogo>
           <ClientLogo>
             <img
               src={SemtracoLogo}
-              alt=""
+              alt="Semtraco"
               style={{
                 backgroundColor: "#2D2D32",
                 padding: "0 10px",
@@ -56,16 +56,16 @@ const Clients = () => {
             />
           </ClientLogo>
           <ClientLogo style={{ maxWidth: "200px" }}>
-            <img src={MaximaEnergiaLogo} alt="" />
+            <img src={MaximaEnergiaLogo} alt="Maxima Energia" />
           </ClientLogo>
           <ClientLogo>
-            <img src={LasBrisasLogo} alt="" />
+            <img src={LasBrisasLogo} alt="Las Brisas" />
           </ClientLogo>
           <ClientLogo className="montechiari">
-            <img src={MontechiariLogo} alt="" />
+            <img src={MontechiariLogo} alt="Montechiari" />
           </ClientLogo>
           <ClientLogo className="porcimonete">
-            <img src={GrupoPorcimonteLogo} alt="" />
+            <img src={GrupoPorcimonteLogo} alt="Grupo Porcimonte" />
           </ClientLogo>
         </ClientsImages>
       </ClientsWrapper>

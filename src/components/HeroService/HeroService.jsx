@@ -11,7 +11,7 @@ const HeroService = () => {
     <>
       <HeroServiceWrapper>
         <HeroServiceImageWrapper>
-          <img src={HeroImageService} alt="" />
+          <img src={HeroImageService} alt="Imagen Hero" />
         </HeroServiceImageWrapper>
         <HeroServiceTextWrapper>
           <h2>Nuestro Servicio</h2>

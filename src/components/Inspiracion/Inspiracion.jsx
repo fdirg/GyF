@@ -16,7 +16,7 @@ const Inspiracion = () => {
         <InspiracionTitleWrapper>
           <h4>Nuestra inspiracion se basa en:</h4>
           <InspiracionImgWrapper>
-            <img src={InspiracionImg} alt="" />
+            <img src={InspiracionImg} alt="Foto Inspiracion" />
           </InspiracionImgWrapper>
         </InspiracionTitleWrapper>
         <InspiracionCardsWrapper>
