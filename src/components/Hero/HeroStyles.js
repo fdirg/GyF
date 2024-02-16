@@ -76,5 +76,8 @@ export const HeroImageWrapper = styled.div`
     border-radius: 20px;
     object-fit: cover;
     opacity: 0.9;
+    @media (max-width: 960px) {
+      border-radius: 0px;
+    }
   }
 `;

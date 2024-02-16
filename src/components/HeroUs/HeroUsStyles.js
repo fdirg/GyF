@@ -76,16 +76,15 @@ export const HeroUsTextDescription = styled.div`
   flex-direction: column;
   gap: 2rem;
   margin: 0 2rem;
-  @media (max-width: 590px) {
-    width: 100%;
-  }
   p {
-    max-width: 400px;
     font-size: 1.2rem;
     font-weight: 500;
     @media (max-width: 1000px) {
       font-size: 1rem;
     }
+  }
+  @media (max-width: 590px) {
+    max-width: 400px;
   }
 `;
 

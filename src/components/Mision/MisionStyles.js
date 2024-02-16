@@ -32,8 +32,9 @@ export const MisionTextWrapper = styled.div`
 `;
 
 export const MisionCardsWrapper = styled(MisionTextWrapper)`
-  width: 1100px;
+  max-width: 1100px;
   justify-content: space-between;
+  gap: 10rem;
   @media (max-width: 1100px) {
     flex-direction: column;
     gap: 2rem;
@@ -50,13 +51,15 @@ export const MisionCards = styled.div`
   padding: 0 1rem;
   background-color: #e5e2dc;
   box-shadow: 5px 2px 2px 0px #999;
-  &:hover {
-    p {
-      opacity: 1;
-    }
-    h4,
-    i {
-      transform: translateY(0);
+  @media (min-width: 1100px) {
+    &:hover {
+      p {
+        opacity: 1;
+      }
+      h4,
+      i {
+        transform: translateY(0);
+      }
     }
   }
   @media (max-width: 1100px) {
@@ -64,6 +67,14 @@ export const MisionCards = styled.div`
     padding: 1rem 2rem;
     flex-direction: row;
     gap: 2rem;
+  }
+  @media (max-width: 590px) {
+    max-width: 300px;
+    flex-direction: column;
+    gap: 0;
+  }
+  @media (max-width: 370px) {
+    max-width: 200px;
   }
 `;
 
@@ -96,12 +107,14 @@ export const CardImg = styled.div`
 
 export const CardText = styled(CardImg)`
   padding-bottom: 1rem;
-  p {
-    opacity: 0;
-    text-align: center;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #344e41;
-    transition: ease-in 0.5s;
+  @media (min-width: 1100px) {
+    p {
+      opacity: 0;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #344e41;
+      transition: ease-in 0.5s;
+    }
   }
 `;

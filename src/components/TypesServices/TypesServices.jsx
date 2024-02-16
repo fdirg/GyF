@@ -16,10 +16,8 @@ const TypesServices = () => {
     <>
       <TypeServiceWrapper>
         <TypeServiceText>
-          <h2>
-            Financiamiento para PyMes, instituciones y cooperativas{" "}
-            <div className="line"></div>
-          </h2>
+          <h2>Financiamiento para PyMes, instituciones y cooperativas </h2>
+          <div className="line"></div>
           <p>
             Brindamos orientación especializada para que encuentren la solución
             que mejor se ajuste a sus requerimientos.
@@ -51,9 +49,6 @@ const TypesServices = () => {
               </CardFinance>
             </TypeFinanceWrapper>
           </div>
-          <p className="more">
-            Si queres saber mas <a href="#contacto">Contactanos</a>
-          </p>
         </TypeServiceText>
         <TypeServiceImage>
           <img src={ServiceImage} alt="" />

@@ -61,14 +61,10 @@ const Clients = () => {
           <ClientLogo>
             <img src={LasBrisasLogo} alt="" />
           </ClientLogo>
-          <ClientLogo
-            style={{
-              maxWidth: "150px",
-            }}
-          >
+          <ClientLogo className="montechiari">
             <img src={MontechiariLogo} alt="" />
           </ClientLogo>
-          <ClientLogo style={{ maxWidth: "180px" }}>
+          <ClientLogo className="porcimonete">
             <img src={GrupoPorcimonteLogo} alt="" />
           </ClientLogo>
         </ClientsImages>

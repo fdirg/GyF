@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const InspiracionWrapper = styled.section`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 1100px;
   padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 950px) {
+    justify-content: center;
+    flex-direction: column;
+  }
 `;
 
 export const InspiracionTitleWrapper = styled.div`
@@ -18,6 +22,10 @@ export const InspiracionTitleWrapper = styled.div`
   h4 {
     font-size: 1.5rem;
     text-transform: uppercase;
+    text-align: center;
+  }
+  @media (max-width: 950px) {
+    align-items: center;
   }
 `;
 
@@ -31,15 +39,20 @@ export const InspiracionImgWrapper = styled.div`
     object-fit: cover;
     height: 500px;
   }
+  @media (max-width: 950px) {
+    display: none;
+  }
 `;
 
 export const InspiracionCardsWrapper = styled.div`
-  width: 600px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
   gap: 1rem;
+  @media (max-width: 950px) {
+    align-items: center;
+  }
 `;
 
 export const InspiracionCard = styled.div`
