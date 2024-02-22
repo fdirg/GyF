@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InspiracionWrapper = styled.section`
-  width: 1100px;
+  width: 100%;
   padding: 1rem 0;
   display: flex;
   justify-content: space-around;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const MisionSection = styled.section`
   display: flex;
@@ -55,10 +55,14 @@ export const MisionCards = styled.div`
     &:hover {
       p {
         opacity: 1;
+        transition-duration: 0.5s;
+        transition-delay: 0.5s;
       }
       h4,
       i {
         transform: translateY(0);
+        transition-duration: 0.5s;
+        transition-delay: 0s;
       }
     }
   }
@@ -95,7 +99,9 @@ export const CardImg = styled.div`
   h4,
   i {
     transform: translateY(55px);
-    transition: ease-out 0.5s;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-out;
   }
   @media (max-width: 1100px) {
     h4,
@@ -114,7 +120,7 @@ export const CardText = styled(CardImg)`
       font-size: 0.9rem;
       font-weight: 500;
       color: #344e41;
-      transition: ease-in 0.5s;
+      transition-duration: 0.5s;
     }
   }
 `;
