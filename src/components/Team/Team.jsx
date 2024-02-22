@@ -50,13 +50,12 @@ const Team = () => {
               </a>
             </TeamCardRedes>
           </TeamCard>
-          <div className="vertical-line"></div>
           <TeamCard>
             <TeamCardFoto>
               <img src={FotoPerfil2} alt="Foto Gaston Dalla Marta" />
             </TeamCardFoto>
             <TeamCardText>
-              <h4>Gaston Dalla Marta</h4>
+              <h4>Gastón Dalla Marta</h4>
               <p>Socio fundador</p>
             </TeamCardText>
             <TeamCardRedes>

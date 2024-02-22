@@ -17,7 +17,7 @@ const Mision = () => {
     <>
       <MisionSection id="mision">
         <MisionTextWrapper>
-          <h2>Como equipo de trabajo, nuestra mision es:</h2>
+          <h2>Como equipo de trabajo, nuestra misión es:</h2>
         </MisionTextWrapper>
         <div className="line"></div>
         <MisionCardsWrapper>

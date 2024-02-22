@@ -16,7 +16,7 @@ const TypesServices = () => {
     <>
       <TypeServiceWrapper>
         <TypeServiceText>
-          <h2>Financiamiento para PyMes, instituciones y cooperativas </h2>
+          <h2>Financiamiento para PyMes, instituciones y cooperativas</h2>
           <div className="line"></div>
           <p>
             Brindamos orientación especializada para que encuentren la solución
@@ -39,7 +39,7 @@ const TypesServices = () => {
                 <i>
                   <LiaMoneyBillWaveAltSolid />
                 </i>
-                <p>Pagare bursatil</p>
+                <p>Pagaré bursatil</p>
               </CardFinance>
               <CardFinance>
                 <i>

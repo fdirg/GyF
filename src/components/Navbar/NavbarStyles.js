@@ -99,10 +99,10 @@ export const NavLinks = styled(NavLink)`
 
 export const NavButton = styled.button`
   background-color: transparent;
+  color: #344646;
   padding: 5px;
   border-radius: 20px;
-  color: #344646;
-  font-size: 1rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,4 +118,6 @@ export const NavButton = styled.button`
   }
 `;
 
-export const CloseButton = styled(NavButton)``;
+export const CloseButton = styled(NavButton)`
+  font-size: 1rem;
+`;

@@ -21,7 +21,7 @@ const Clients = () => {
     <>
       <ClientsWrapper id="clientes">
         <ClientsTitle>
-          <h2>Clientes que confiaron en nuestro servicio</h2>
+          <h2>Clientes que han confiado en nuestro servicio</h2>
           <div className="line"></div>
         </ClientsTitle>
         <ClientsImages>

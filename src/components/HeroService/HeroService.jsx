@@ -28,13 +28,13 @@ const HeroService = () => {
             maximizar los beneficios.
           </p>
           <p>
-            Facilitamos el acceso al financiamiento que tu empresa necesita,
-            para crecer y prosperar. Para poder financiar capital de trabajo
+            Facilitamos el acceso al financiamiento que tu empresa necesita para
+            crecer y prosperar, ya sea para financiar capital de trabajo
             (campaña agrícola) y/o proyectos de inversión.
           </p>
           <p>
-            Al elegirnos, no solo obtienes el respaldo de mas de 25 años de
-            gestión financiera, sino que además una gestion de punta a punta.
+            Al elegirnos, no solo obtienes el respaldo de más de 25 años de
+            gestión financiera, sino también una gestión de punta a punta.
           </p>
         </HeroServiceTextWrapper>
       </HeroServiceWrapper>

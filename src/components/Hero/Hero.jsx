@@ -7,10 +7,10 @@ const Hero = () => {
       <HeroWrapper>
         <HeroTextWrapper>
           <div>
-            <h2>Gestion Empresarial</h2>
+            <h2>Gestión Empresarial</h2>
             <h3>Management Financiero</h3>
             <p>
-              <span>Mas de 25 años de experiencia</span> en el sector financiero
+              <span>Más de 25 años de experiencia</span> en el sector financiero
             </p>
             <p>
               Especializados en el sector agropecuario y en industrias

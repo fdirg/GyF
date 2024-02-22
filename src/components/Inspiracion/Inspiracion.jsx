@@ -14,17 +14,17 @@ const Inspiracion = () => {
     <>
       <InspiracionWrapper>
         <InspiracionTitleWrapper>
-          <h4>Nuestra inspiracion se basa en:</h4>
+          <h4>Nuestra inspiración se basa en:</h4>
           <InspiracionImgWrapper>
             <img src={InspiracionImg} alt="Foto Inspiracion" />
           </InspiracionImgWrapper>
         </InspiracionTitleWrapper>
         <InspiracionCardsWrapper>
           <InspiracionCard>
-            <h5>Compartir nuestro valores</h5>
+            <h5>Compartir nuestros valores</h5>
             <p>
-              Nuestros logros, la ambicion por seguir mejorando el respeto y la
-              humildad por sobre todo.
+              Nuestros logros, la ambición por seguir mejorando, el respeto y la
+              humildad por encima de todo.
             </p>
             <BorderBottom>
               <div className="line"></div>
@@ -35,7 +35,7 @@ const Inspiracion = () => {
           <InspiracionCard>
             <h5>Promover el crecimiento profesional y personal</h5>
             <p>
-              Brindando oportunidades de desarrollo, mentoria y apoyo,
+              Brindando oportunidades de desarrollo, mentoría y apoyo,
               fortaleciendo equipo de trabajos y comunidades.
             </p>
             <BorderBottom>

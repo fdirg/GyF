@@ -16,11 +16,6 @@ export const TeamWrapper = styled.div`
     flex-direction: column;
     gap: 10px;
   }
-  .line {
-    height: 2px;
-    width: 60%;
-    background-color: #344e41;
-  }
   @media (max-width: 590px) {
     h2 {
       font-size: 1.8rem;
@@ -32,9 +27,9 @@ export const TeamCardsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8rem;
+  gap: 14rem;
   @media (max-width: 700px) {
-    gap: 2rem;
+    gap: 4rem;
     flex-direction: column;
   }
   .vertical-line {

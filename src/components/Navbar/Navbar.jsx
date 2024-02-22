@@ -16,10 +16,10 @@ import { CiMenuBurger } from "react-icons/ci";
 import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  const NavRef = useRef();
+  const navRef = useRef();
 
-  const showNavbar = () => {
-    NavRef.current.classList.toggle("responsive_nav");
+  const handleShowNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
   };
 
   return (
@@ -30,19 +30,19 @@ const Navbar = () => {
             <LogoLink to="/">G&F</LogoLink>
           </motion.div>
         </LogoWrapper>
-        <Nav ref={NavRef}>
+        <Nav ref={navRef}>
           <LinksWrapper>
             <ItemsLinks>
               <NavLinks to="/">Inicio</NavLinks>
               <NavLinks to="/servicios">Nuestro Servicio / Clientes</NavLinks>
-              <NavLinks to="/nosotros">Quienes somos / Contacto</NavLinks>
-              <CloseButton onClick={showNavbar}>
+              <NavLinks to="/nosotros">Quiénes somos / Contacto</NavLinks>
+              <CloseButton onClick={handleShowNavbar}>
                 <FaTimes />
               </CloseButton>
             </ItemsLinks>
           </LinksWrapper>
         </Nav>
-        <NavButton onClick={showNavbar}>
+        <NavButton onClick={handleShowNavbar}>
           <CiMenuBurger />
         </NavButton>
       </NavbarWrapper>
